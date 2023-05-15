@@ -1,4 +1,4 @@
-async function calculate() {
+function calculate() {
 	var weight = document.getElementById("weight").value;
 	var height = document.getElementById("height").value;
 
