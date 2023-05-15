@@ -1,34 +1,36 @@
 input {
-    /*sets the color of the insertion caret with red*/
-    caret-color: #1cab76;
+  /*sets the color of the insertion caret with red*/
+  caret-color: #1cab76;
 }
 
 body {
-    background: #ecf0f3;
-    display: flex;
-    justify-content: center;
-    place-items: center;
+  background: #ecf0f3;
+  display: flex;
+  justify-content: center;
+  place-items: center;
 }
 
 .container {
-    width: 400px;
-    height: 550px;
-    border-radius: 20px;
-    padding: 40px;
-    box-sizing: border-box;
-    background: #ecf0f3d7;
-    box-shadow: 14px 14px 20px white, -14px -14px 20px white;
+  width: 400px;
+  height: 550px;
+  border-radius: 20px;
+  padding: 40px;
+  box-sizing: border-box;
+  background: #ecf0f3d7;
+  box-shadow: 14px 14px 20px white, -14px -14px 20px white;
 }
 
 .projectTitle {
-    color: #1cab76;
-    margin-top: 10px;
-    font-weight: 900;
-    font-size: 1.8rem;
-    text-align: center;
+  color: #1cab76;
+  margin-top: 10px;
+  font-weight: 900;
+  font-size: 1.8rem;
+  text-align: center;
 }
 
-label, input, button {
+label,
+input,
+button {
   display: block;
   width: 100%;
   border: none;
@@ -42,7 +44,8 @@ input {
   font-size: 14px;
   border-radius: 50px;
   box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
-  margin-bottom: 20px;;
+  margin-bottom: 20px;
+  ;
 }
 
 button {
@@ -59,12 +62,13 @@ button {
 button:hover {
   box-shadow: none;
 }
-#result{
-    margin-top: 40px;
-    border-radius: 20px;
-    visibility: hidden;
-    color: #1cab76;
-    font-weight: 150;
-    font-size: 1.6rem;
-    text-align: center;
+
+#result {
+  margin-top: 40px;
+  border-radius: 20px;
+  visibility: hidden;
+  color: #1cab76;
+  font-weight: 150;
+  font-size: 1.6rem;
+  text-align: center;
 }
