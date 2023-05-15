@@ -1,29 +1,38 @@
 <html>
-    <head>
-        <title>BMI Calculator</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <div class="container">
-            <div class="projectTitle">
-                <p>BMI Calculator</p>
-            </div>
-            <div class="inputs">
-                <div>
-                    <label>Weight</label> <br/>
-                    <input type = "number" name = "weight" id = "weight" placeholder = "Your weight in kg"/>
-                </div>
-                <div>
-                    <label>Height</label><br/>
-                    <input type = "number" name = "height" id = "height" placeholder = "Your height in cm" />
-                </div>
-                <div>
-                    <button type="submit" onclick = "calculate()">Calculate</button>
-                </div>                  
-            </div>  
-            <div id = "result">
-            </div>                    
-        </div>  
-        <script src="main.js"></script>      
-    </body>
+  <head>
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="projectTitle">
+        <p>BMI Calculator</p>
+      </div>
+      <div class="inputs">
+        <div>
+          <label>Weight</label> <br />
+          <input
+            type="number"
+            name="weight"
+            id="weight"
+            placeholder="Your weight in kg"
+          />
+        </div>
+        <div>
+          <label>Height</label><br />
+          <input
+            type="number"
+            name="height"
+            id="height"
+            placeholder="Your height in cm"
+          />
+        </div>
+        <div>
+          <button type="submit" onclick="calculate()">Calculate</button>
+        </div>
+      </div>
+      <div id="result"></div>
+    </div>
+    <script src="main.js"></script>
+  </body>
 </html>
